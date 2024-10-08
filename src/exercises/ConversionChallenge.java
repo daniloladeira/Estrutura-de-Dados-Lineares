@@ -11,13 +11,13 @@ public class ConversionChallenge {
         Scanner input = new Scanner(System.in);
 
         System.out.println("1° SALARY: ");
-        String salary1 = salary.nextLine().replace(",", ".");
+        String salary1 = input.nextLine().replace(",", ".");
 
         System.out.println("2° SALARY: ");
-        String salary2 = salary.nextLine().replace(",", ".");
+        String salary2 = input.nextLine().replace(",", ".");
 
         System.out.println("3° SALARY: ");
-        String salary3 = salary.nextLine().replace(",", ".");
+        String salary3 = input.nextLine().replace(",", ".");
 
         double s1 = Double.parseDouble(salary1);
         double s2 = Double.parseDouble(salary2);
